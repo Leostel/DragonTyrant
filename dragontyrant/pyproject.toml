@@ -1,0 +1,49 @@
+[tool.briefcase]
+project_name = "Dragon Tyrant"
+bundle = "com.example"
+version = "0.0.1"
+url = "https://github.com/Leostel/DragonTyrant"
+license = "GNU General Public License v3 (GPLv3)"
+author = 'Leostel'
+author_email = "leostelaris@gmail.com"
+
+[tool.briefcase.app.dragontyrant]
+formal_name = "Dragon Tyrant"
+description = "A Choose Your Own Adventure-style virtual gamebook about finding a way to slay a seemingly invincible dragon."
+icon = "src/dragontyrant/resources/dragontyrant"
+sources = ['src/dragontyrant']
+requires = []
+
+
+[tool.briefcase.app.dragontyrant.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.dragontyrant.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev20',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.dragontyrant.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev20',
+]
+
+# Mobile deployments
+[tool.briefcase.app.dragontyrant.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev20',
+]
+
+[tool.briefcase.app.dragontyrant.android]
+requires = [
+    'toga-android>=0.3.0.dev20',
+]

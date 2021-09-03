@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.5
+Name: dragontyrant
+Formal-Name: Dragon Tyrant
+App-ID: com.example.dragontyrant
+Version: 0.0.1
+Home-page: https://github.com/Leostel/DragonTyrant
+Author: Leostel
+Author-email: leostelaris@gmail.com
+Summary: A Choose Your Own Adventure-style virtual gamebook about finding a way to slay a seemingly invincible dragon.
